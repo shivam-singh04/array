@@ -1,0 +1,22 @@
+#include <iostream>
+#include<stdio.h>
+
+int main(){
+    int n;
+    int k;
+    std::cin >> n >> k;
+    int a[n];
+    for(int i = 0;i < n;i++){
+       std:: cin >> a[i];
+    }
+      for(int i=k;i<n;i++)
+    {
+        std::cout<<a[i]<<" ";
+    }
+    for(int i=0;i<k;i++)
+    {
+        std::cout<<a[i]<<" ";
+    }
+   std:: cout <<"\n";
+    return 0;
+}
